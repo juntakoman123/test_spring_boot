@@ -11,8 +11,8 @@ public class DemoApplication {
     public static void main(String[] args) {
       SpringApplication.run(DemoApplication.class, args);
     }
-    @GetMapping("test")
-    public String test(){
-    	return "test";
+    @GetMapping("user-management")
+    public String userManagement(){
+    	return "user-management";
     }
 }
